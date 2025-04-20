@@ -9,10 +9,6 @@ const AppLayout = () => {
         <Header />
         <Outlet />
       </main>
-      {/* <div className="p-10 text-center bg-gray-800 mt-10 flex items-center gap-2">
-        <img src="/logo.png" width={100} height={100} alt="" />
-        <p>Find Your Dream Job and get placed</p>
-      </div> */}
     </div>
   );
 };
