@@ -162,11 +162,7 @@ const PostJob = () => {
           name="requirements"
           control={control}
           render={({ field }) => (
-            <MDEditor
-              value={field.value}
-              onChange={field.onChange}
-              className="bg-transparent"
-            />
+            <MDEditor value={field.value} onChange={field.onChange} />
           )}
         />
         {errors.requirements && (
